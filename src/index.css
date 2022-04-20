@@ -1,13 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Azeret+Mono');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url(//db.onlinewebfonts.com/c/d76aec034dd0aa7f4ab7493b9a3cf53e?family=Doctor+Glitch);
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont,'Azeret Mono','Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #020202;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg-color: linear-gradient(97.28deg, #8DFF37 0%, #2ADAFF 102.29%);
 }

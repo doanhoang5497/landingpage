@@ -1,0 +1,136 @@
+.Section__4-token {
+    margin-top: 270px;
+}
+
+.Section__4-token-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Section__4-token-title>span {
+    display: grid;
+    font-size: 44px;
+    justify-items: center;
+}
+
+.Section__4-token-percent {
+    background: rgba(46, 220, 249, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 0 132px;
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 120%;
+    color: #2EDCF9;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Section__4-token-info {
+    margin-top: 100px;
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+    display: grid;
+}
+
+.Section__4-token-info>div>img {
+    width: auto;
+    height: 60px;
+}
+
+.Section__4-token-info>div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Section__4-token-info-txt {
+    display: grid;
+    margin: 30px 0;
+}
+
+.Section__4-token-info-left {
+    justify-items: end;
+}
+
+.Section__4-token-info-txt>span {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.Section__4-Competitive{
+    margin: 300px 132px 0 132px;
+}
+.Section__4-Competitive-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.Section__4-Competitive-title>span {
+    font-size: 48px;
+    font-family: 'Doctor Glitch';
+    background: var(--main-bg-color);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Section__4-Competitive>table{
+    margin: auto;
+    margin-top: 100px;
+    width: 100%;
+}
+.Section__4-Competitive>table>tr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 13px 60px;
+}
+.Section__4-Competitive>table>tr:nth-child(even) {
+    background: rgba(42, 218, 255, 0.15);
+  }
+.Section__4-Competitive>table>tr>th {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #2EDCF9;
+}
+
+.Section__4-Competitive>table>tr>td {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+}
+.Section__4-Competitive>table>tr>td>img{
+    margin-right: 14px;
+}

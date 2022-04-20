@@ -1,0 +1,234 @@
+.Section__3 {
+    margin: 300px 132px 0px 132px;
+}
+
+.Section__3-howit {
+    display: flex;
+}
+
+.Section__3-howit-right,
+.Section__3-howit-left {
+    width: 50%;
+}
+
+.Section__3-howit-left>span {
+    font-family: 'Doctor Glitch';
+    background: var(--main-bg-color);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.Section__3-howit-left {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-image: url('../../../../icon/bg-section-3.png') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.Section__3-howit-right-content {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+    width: 343px;
+    display: grid;
+}
+
+.Section__3-howit-right-content>img {
+    margin-bottom: 44px;
+}
+
+.Section__3-howit-right-content-top,
+.Section__3-howit-right-content-bot {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.Section__3-howit-right-content>p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 40px;
+}
+
+.Section__3-content-wrap {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 350px;
+}
+
+.Section__3-content {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 600px;
+}
+
+.Section__3-content>div {
+    display: grid;
+}
+
+.Section__3-content>div>div>span {
+    font-family: 'Doctor Glitch';
+    background: var(--main-bg-color);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Section__3-content>div>div {
+    margin: 32px 0;
+}
+
+.Section__3-content>div>span {
+    font-size: 20px;
+    line-height: 120%;
+    text-transform: none !important;
+    color: #2EDCF9;
+    margin-bottom: 40px;
+}
+
+.Section__3-content>div>p {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.5;
+    text-transform: none !important;
+}
+
+.Section__3-content-table {
+    font-size: 34px;
+    line-height: 120%;
+    background: linear-gradient(117.55deg, #2C4E13 0%, #0F434D 100%);
+    padding: 50px;
+}
+
+.Section__3-content-table>div {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.Section__3-content-table>div>span {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.5;
+    text-transform: none !important;
+    margin-left: 30px;
+}
+
+.Section__3-info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: grid;
+    justify-items: center;
+    margin-top: 320px;
+}
+
+.Section__3-info-Safuu>span>span {
+    background: #2EDCF9;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Section__3-info-Safuu>span>span>span {
+    font-family: 'Doctor Glitch';
+}
+
+.Section__3-info>p {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.5;
+    width: 1029px;
+    text-align: center;
+}
+
+.Section__3-info-Safuu {
+    display: grid;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+.Section__3-info-content {
+    display: flex;
+}
+
+.Section__3-info-content-left {
+    font-size: 24px;
+    line-height: 180%;
+    color: #E5E5EA;
+    padding: 64px;
+    text-transform: none;
+    border: 1px solid;
+    border-image-source: linear-gradient(117.55deg, #2C4E13 0%, #0F434D 100%);
+    border-image-slice: 1;
+    margin-top: 30px;
+}
+
+.Section__3-info-content-right,
+.Section__3-info-content-left {
+    width: 732px;
+}
+
+.Section__3-info-content-right {
+    font-size: 34px;
+    line-height: 120%;
+    background: linear-gradient(117.55deg, #2C4E13 0%, #0F434D 100%);
+    padding: 50px;
+    display: grid;
+    align-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.Section__3-info-content-right>div {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.Section__3-info-content-right>div>span {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.5;
+    text-transform: none !important;
+    margin-left: 30px;
+}

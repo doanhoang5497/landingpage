@@ -1,0 +1,98 @@
+.Main {
+    padding-left: 380px;
+    padding-right: 132px;
+    background-image: url("../../../image/bgmain.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 954px;
+}
+
+.Main-title {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.Main-title-right {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+}
+
+.Main-title-right>div {
+    background: linear-gradient(117.55deg, #2C4E13 0%, #0F434D 100%);
+    border-radius: 8px;
+    width: 185px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.Main-title-right>div>div {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(97.28deg, #8DFF37 0%, #2ADAFF 102.29%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.Main-content-1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin: 46px 0;
+}
+
+.Main-content-1-title {
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+
+.Main-content-1-item-gradien {
+    background: linear-gradient(117.55deg, #2C4E13 0%, #0F434D 100%) !important;
+}
+
+.Main-content-1-item>div>div>span {
+    font-family: 'Azeret Mono';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    opacity: 0.6;
+}
+
+.Main-content-1-item>div>div {
+    font-family: 'Azeret Mono';
+    font-size: 34px;
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    align-content: space-around;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(75px);
+    border-radius: 16px;
+    width: 100%;
+    height: 153px;
+    margin: 15px 30px;
+    padding: 30px;
+}
+
+.Main-content-1-item>div {
+    display: flex;
+    justify-content: space-between;
+}

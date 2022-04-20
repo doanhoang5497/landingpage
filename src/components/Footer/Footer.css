@@ -1,0 +1,39 @@
+.Footer-keep {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: linear-gradient(117.55deg, #2C4E13 0%, #0F434D 100%);
+    height: 348px;
+    margin-top: 224px;
+    display: grid;
+    justify-items: center;
+    align-content: space-evenly;
+}
+
+.Footer-keep>div>span {
+    font-size: 48px;
+    font-family: 'Doctor Glitch';
+    background: var(--main-bg-color);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Footer-img>img {
+    margin: 0 65px;
+}
+
+.Footer-copyright {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin: 32px 0;
+    text-align: center;
+}

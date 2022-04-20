@@ -1,0 +1,45 @@
+
+.Main-title {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.Main-title-right {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+}
+
+.Main-title-right>div {
+    background: linear-gradient(117.55deg, #2C4E13 0%, #0F434D 100%);
+    border-radius: 8px;
+    width: 185px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.Main-title-right>div>div {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(97.28deg, #8DFF37 0%, #2ADAFF 102.29%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.Main-title-right>div:hover{
+    cursor: pointer;
+}
